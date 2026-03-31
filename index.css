@@ -270,7 +270,11 @@ footer p{
 .contactMain{
   display:flex;
   justify-content:space-between;
-  margin-top:10px;
+  margin-top:64px;
+}
+
+.aboutMeMain{
+  margin-top:64px;
 }
 
 .contactRight h2{
