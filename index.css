@@ -11,9 +11,9 @@
 }
 @font-face {
   font-family: "Inter";
-  src:
-    local("BebasNeue"),
-    url("./fonts/Inter-VariableFont_opsz\,wght.ttf")
+  src: url("./fonts/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
 }
 
 
