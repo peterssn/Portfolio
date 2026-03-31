@@ -1,4 +1,4 @@
-fetch("/portfolioCards.json")
+fetch("http://localhost:8000/portfolioCards.json")
   .then(response => response.json())
   .then(data => {
     const container = document.getElementById("cardContainer");
