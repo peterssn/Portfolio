@@ -22,7 +22,7 @@ body{
 }
 
 p{
-  font-family: "Inter", Times;
+  font-family: "Inter", sans-serif;
 }
 
 nav{
@@ -341,6 +341,10 @@ nav a:hover{
 #timelineText b{
   color:black;
   font-weight:bold;
+}
+
+d{
+  font-style:italic;
 }
 
 #timelineText{
