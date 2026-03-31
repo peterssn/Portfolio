@@ -1,4 +1,30 @@
 import { serve } from "https://deno.land/std@0.224.0/http/server.ts";
+import { extname } from "https://deno.land/std@0.224.0/path/mod.ts";
+import { contentType } from "https://deno.land/std@0.224.0/media_types/mod.ts";
+
+const handler = async (req) => {
+  const url = new URL(req.url);
+  let pathname = decodeURIComponent(url.pathname);
+
+  if (pathname === "/") pathname = "/index.html";
+
+  try {
+    const fileUrl = new URL(`.${pathname}`, import.meta.url);
+    const file = await Deno.readFile(fileUrl);
+    const mime = contentType(extname(pathname)) || "application/octet-stream";
+
+    return new Response(file, {
+      headers: { "content-type": mime },
+    });
+  } catch {
+    return new Response("404: Not found", { status: 404 });
+  }
+};
+
+serve(handler);
+
+/*
+import { serve } from "https://deno.land/std@0.224.0/http/server.ts";
 import { extname, join } from "https://deno.land/std@0.224.0/path/mod.ts";
 import { contentType } from "https://deno.land/std@0.224.0/media_types/mod.ts";
 
@@ -21,4 +47,4 @@ const handler = async (req) => {
     }
 };
 
-serve(handler, { port: 8000 });
+serve(handler, { port: 8000 });*/
