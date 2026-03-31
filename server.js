@@ -10,10 +10,15 @@ const handler = async (req) => {
 
   try {
     const fileUrl = new URL(`.${pathname}`, import.meta.url);
-    const file = await Deno.readFile(fileUrl);
+    const file = await fetch(fileUrl);
+
+    if (!file.ok) {
+      return new Response("404: Not found", { status: 404 });
+    }
+
     const mime = contentType(extname(pathname)) || "application/octet-stream";
 
-    return new Response(file, {
+    return new Response(await file.arrayBuffer(), {
       headers: { "content-type": mime },
     });
   } catch {
