@@ -677,3 +677,16 @@ footer a:hover{
   }
 
 }
+
+.projectOverviewImg {
+  display: grid; /* grid istället för flex */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  margin: 32px 0;
+}
+
+.projectOverviewImg img {
+  width: 100%; /* fyller sin grid-cell */
+  height: auto; /* behåller proportioner */
+  object-fit: cover;
+}
