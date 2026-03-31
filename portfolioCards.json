@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Insats Blå",
+    "year": "2025",
+    "subtitle": "Mobile cop game",
+    "tools": ["CSS", "Figma", "HTML", "JS"],
+    "description": "A mobile cross-media game inspired by the Swedish TV-series Tunna blå linjen.",
+    "image": "./img/Mockup.jpg",
+    "link": "./insatsBla.html"
+  },
+  {
+    "title": "Midnight Sun Poster",
+    "year": "2026",
+    "subtitle": "Zara Larsson tour poster",
+    "tools": ["Adobe", "Photoshop"],
+    "description": "Promotional poster for Zara Larsson Midnight Sun Tour.",
+    "image": "./img/Vertical.jpg",
+    "link": "./midnightSun.html"
+  },
+  {
+    "title": "Rockbjörnen",
+    "year": "2024",
+    "subtitle": "Musical transmedia game",
+    "tools": ["Figma", "HTML", "CSS", "JS"],
+    "description": "Team project where we were tasked to create a game for mobile use but also rootes in reality.",
+    "image": "./img/bild.jpg",
+    "link": "./rockbjarnen.html"
+  },
+  {
+    "title": "CHUNKS",
+    "year": "2024",
+    "subtitle": "Gameified teaching site",
+    "tools": ["Figma"],
+    "description": "A reimagined website originally created by our teacher and used by us for learning programming.",
+    "image": "./img/PhpMockup.jpg",
+    "link": "./chunks.html"
+  },
+  {
+    "title": "summer postcards",
+    "year": "2026",
+    "subtitle": "Postcards of my familys summer house",
+    "tools": ["Adobe", "Illustrator", "Photoshop"],
+    "description": "Team project where we were tasked to create a game for mobile use but also rootes in reality,",
+    "image": "./img/postcards.jpg",
+    "link": "./postcards.html"
+  },
+  {
+    "title": "Malmö Initiativet",
+    "year": "2025",
+    "subtitle": "Reimagined website of Malmö Initiativet",
+    "tools": ["Figma"],
+    "description": "A reimagined website originally created by Malmö muncipality where citizens can vote citizen made wishes.",
+    "image": "./img/malmo.jpg",
+    "link": "./malmo.html"
+  },
+  {
+    "title": "Travel Brochure",
+    "year": "2026",
+    "subtitle": "Brochure of London Markets",
+    "tools": ["Adobe", "Illustrator", "Indesign"],
+    "description": "Team project where we were tasked to create a game for mobile use but also rootes in reality,",
+    "image": "./img/brochure.jpg",
+    "link": "./travel.html"
+  }
+
+]

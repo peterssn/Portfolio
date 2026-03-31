@@ -1,0 +1,671 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+@font-face {
+  font-family: "Bebas";
+  src:
+    local("BebasNeue"),
+    url("./fonts/BebasNeue-Regular.ttf")
+}
+@font-face {
+  font-family: "Inter";
+  src:
+    local("BebasNeue"),
+    url("./fonts/Inter-VariableFont_opsz\,wght.ttf")
+}
+
+
+body{
+  background-color:#FAF9F6;
+}
+
+p{
+  font-family: "Inter";
+}
+
+nav{
+  display: flex;
+  justify-content:end;
+  gap: 24px;
+  margin-top:32px;
+  margin-right:20px;
+}
+
+nav p {
+  padding: 8px 12px;
+  font-family:"Bebas";
+  font-size:20px;
+}
+
+header{
+  display:flex;
+  justify-content: center;;
+
+}
+
+header h2{
+  margin-top:32px;
+  font-family:"Inter";
+  font-weight:400;
+}
+
+header h3{
+  margin-top:4px;
+}
+
+header h1{
+  font-size: 64px;
+  font-family:"inter";
+  font-weight:400;
+}
+
+b{
+  color:#0026FF;
+  font-weight:400;
+}
+
+i{
+  color:#0026FF;
+  font-style:normal;
+}
+
+#first{
+  margin-top:140px;
+
+}
+
+header img{
+  width: 282.62px;
+  margin-left:70px;
+  margin-top: 42px;
+}
+
+main{
+  padding: 0px 225px 0px 225px;
+  margin-bottom:100px;
+  max-width:1300px;
+  margin:auto;
+}
+
+.undantagP{
+  font-size:40px;
+  max-width: 1028px;
+  margin: auto;
+  margin-top:64px;
+}
+
+#hej{
+  font-size:32px;
+  margin-top:16px;
+}
+
+H3{
+  font-family:"Bebas";
+  font-size:20px;
+}
+
+p{
+  font-family: "Inter";
+}
+
+.card{
+  width: 296px;
+  margin-top: 32px;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.card img{
+  width:296px;
+  border-radius: 8px 8px 0px 0px;
+  height:296px;
+  object-fit: cover; 
+}
+
+.card h3{
+  font-size:24px;
+}
+
+.cardInfo{
+  padding: 32px 12px 14px 12px;
+  background-color: #FFFFFF;
+  border-radius: 0px 0px 8px 8px;
+
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.margin{
+  margin-bottom:39px;
+}
+
+.cardHeading{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:10px;
+}
+
+.undertext{
+  font-size:11px;
+}
+
+card p{
+  font-size:12px;
+}
+
+.programs{
+  display:flex;
+  gap:12px;
+  margin-top:12px;
+  margin-bottom:20px;
+}
+
+.programs p{
+  background-color: #EAEAEA;
+  padding:4px 8px;
+  border-radius:8px;
+}
+
+.arrow img{
+  width:25px;
+  height:100%;
+}
+
+.arrow{
+  margin-top: auto;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 24px;
+}
+
+#cardContainer{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 296px);
+  justify-content: space-between;
+  gap: clamp(8px, 5vw, 70px);
+  max-width: 1028px;
+  margin: auto;
+
+  margin-bottom:200px;
+}
+
+h4{
+  font-family:"Bebas";
+  font-size:20px;
+  color:#FAF9F6;
+  letter-spacing: 1px;
+  margin-bottom:16px;
+}
+
+footer{
+  display:flex;
+  justify-content: space-between;
+  padding: 45px 125px 45px 125px;
+  background-color:#0026FF;
+}
+
+footer p{
+  max-width:295px;
+  color:#FAF9F6;
+  margin-bottom:12px;
+}
+
+.aboutMe img{
+  width:422.94px;
+}
+
+.aboutMe{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  margin-top:10px;
+}
+
+.aboutList{
+  display:flex;
+  gap:56px;
+}
+
+.aboutList p {
+  margin-bottom: 4px;
+}
+
+.aboutList h2 {
+  margin-bottom: 8px;
+}
+
+.aboutMeP{
+  margin-bottom:32px;
+}
+
+.aboutMe p{
+  max-width:950px;
+}
+
+.aboutH2{
+  font-family:"Bebas";
+  font-size:24px;
+}
+
+.aboutH1{
+  font-family:"Bebas";
+  font-size: 64px;
+}
+
+.img2{
+  width:301px;
+}
+
+.contactLeft img{
+  max-width:295px;
+}
+
+.contactMain{
+  display:flex;
+  justify-content:space-between;
+  margin-top:10px;
+}
+
+.contactRight h2{
+  margin-bottom: 12px;
+}
+
+.contactRight p {
+  margin-bottom: 8px;
+}
+
+.contactRight div{
+  margin-bottom:100px;
+}
+
+.contactRight{
+  margin-top:75px;
+}
+
+.kompisarImg{
+}
+
+#lastAboutMe{
+  margin-bottom:200px;
+  margin-top:80px;
+}
+
+nav a {
+  color:black;
+  text-decoration:none;
+  padding: 8px 12px 8px 12px;
+}
+
+nav a:hover{
+  background-color:#0026FF;
+  color:white;
+}
+
+#timelineContainer{
+  max-width:1028px;
+  margin:auto;
+  margin-top:120px;
+}
+
+#timeline{
+  height:5px;
+  background-color: #0026FF;
+  margin-top: 24px;
+}
+
+#imgContainer{
+  display:flex;
+  justify-content: space-between;
+  padding: 0px 64px 0px 64px;
+}
+
+#imgContainer img{
+  width: 50px;
+
+  transform-origin: bottom center; 
+  transition: transform 0.3s ease;
+}
+
+#imgContainer img:hover {
+  transform: scale(4); /* 50px → ~150px */
+  z-index: 10;
+}
+
+#timelineText b{
+  color:black;
+  font-weight:bold;
+}
+
+#timelineText{
+  margin-bottom:64px;
+}
+
+#time{
+  display:flex;
+  justify-content: space-between;
+  margin-top:16px;
+  padding: 0px 32px 0px 32px;
+}
+
+#time p{
+  font-family: "bebas";
+  font-size: 20px;
+}
+
+.cardViewNav{
+  display:flex;
+  justify-content: space-between;
+  margin-left:20px;
+}
+
+#lala{
+  display:flex;
+  flex-direction:row;
+  gap:24px;
+}
+
+.headContainer{
+  display:flex;
+  gap:24px;
+  margin-bottom:64px;
+}
+
+.headContainer img{
+  width:50vw;
+}
+
+.headTextContainer{
+  display:flex;
+  flex-direction: column;
+  gap:32px;
+}
+
+.headInformation p{
+  margin-top:16px;
+}
+
+.yolo{
+  margin-bottom:32px;
+}
+
+.projectOverview h3{
+  margin-bottom:16px;
+}
+
+.projectOverview img{
+  width:100%;
+}
+
+.projectOverviewImg{
+  display:flex;
+  justify-content: space-between;
+  margin: 32px 0px 32px 0px;
+  gap:16px;
+}
+
+.designHeader{
+  display:flex;
+  gap:12px;
+  align-items:end;
+  margin-top: 32px;
+  margin-bottom:16px;
+}
+
+.designImg img{
+  width:100%;
+  margin-top:32px;
+}
+
+.designProcess{
+  margin-bottom:124px;
+}
+
+.card {
+  text-decoration: none;    /* remove underline */
+  color: inherit;           /* keep your text styles */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.2s;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.zaraPoster{
+  max-width:400px;
+}
+
+.aboutMe a{
+  color: inherit;
+}
+
+.aboutMe a:hover{
+  color:#0026FF;
+}
+
+footer a{
+  color:inherit;
+}
+
+footer a:hover{
+  color:black;
+}
+
+.contactLeft{
+  max-width:700px;
+}
+.contactLeft p{
+  margin-bottom:32px;
+}
+
+.contactMain{
+  margin-bottom:100px;
+}
+
+@media (max-width: 1200px){
+  .contactMain{
+    padding: 0px 100px;
+  }
+}
+
+@media (max-width: 1100px){
+
+  main{
+    padding: 0px 200px;
+
+  }
+
+  #cardContainer{
+    justify-content: center;
+  }
+
+  #imgContainer{
+    justify-content: center;
+    gap: 32px;
+  }
+
+  #time{
+    gap: 32px;
+  }
+
+  nav{
+    display:flex;
+    justify-content:center;
+  }
+  #timelineContainer{
+    margin:auto;
+  }
+
+}
+
+@media (max-width: 1050px){
+  main{
+  padding:150px;
+}
+
+  #emmaBaath{
+  display:flex;
+  justify-content:center;
+}
+
+  .aboutMeMain{
+    padding: 0px 100px;
+  }
+}
+
+@media (max-width: 870px){
+  main{
+    padding:16px;
+  }
+
+  #emmaBaath{
+    display:flex;
+    justify-content:center;
+  }
+
+  .contactMain{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .contactLeft{
+    max-width:340px;
+    margin-top:32px;
+  }
+
+  }
+
+  @media (max-width: 980px){
+
+    .aboutMe{
+      display:flex;
+      flex-direction: column;
+      justify-content:center;
+    }
+
+    .aboutMe:nth-child(2){
+      flex-direction: column-reverse;
+    }
+
+    footer{
+      padding:16px;
+    }
+
+
+  }
+
+  @media (max-width: 938px){
+    main{
+    padding:50px;
+  }
+
+  .aboutMeMain img{
+    align-self:center;
+  }
+  
+    }
+
+    @media (max-width: 700px){
+      footer{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+      }
+
+      footer div{
+        min-width:296px;
+      }
+    
+    }
+
+
+@media (max-width: 630px){
+  .firstPageHeader{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+  }
+  .firstPageHeader img{
+    margin-left:0px;
+
+  }
+        .headContainer{
+        display:flex;
+        flex-direction:column;
+      }
+    
+      .headTextContainer{
+        flex-direction:row;
+      }
+
+      .headContainer img{
+        min-width:300px;
+        align-self:center;
+      }
+
+      .cardViewMain{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        padding:32px;
+      }
+
+}
+
+@media (max-width: 580px) {
+  #imgContainer img:nth-child(n+4) {
+    display: none;
+  }
+  .more {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    color: #0026FF;
+  }
+
+  .firstPageHeader div:first-child{
+    margin-left:16px;
+  }
+
+  nav{
+    margin-left:0px;
+    margin-right:0px;
+  }
+
+  .aboutMeMain{
+    padding:0px 32px;
+  }
+
+  .contactMain{
+    padding:0px 32px;
+  }
+
+  .aboutMeMain img{
+    width:300px;
+  }
+
+  .projectOverviewImg{
+    display:flex;
+    flex-direction:column;
+  }
+
+  .cardViewNav{
+    margin:0px;
+    gap:0px;
+  }
+
+  .aboutList{
+    gap:16px;
+  }
+
+}
