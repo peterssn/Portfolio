@@ -436,14 +436,14 @@ d{
 }
 
 .card {
-  text-decoration: none;    /* remove underline */
-  color: inherit;           /* keep your text styles */
+  text-decoration: none;  
+  color: inherit;           
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  transition: 0.2s;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transform: translateY(-8px) scale(1.00);
+  box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 10px;
 }
 
 .zaraPoster{
