@@ -187,6 +187,7 @@ card p{
 #cardContainer{
   display:flex;
   flex-wrap:wrap;
+  justify-content:space-between;
   gap:24px;
   max-width: 1028px;
   margin: auto;
