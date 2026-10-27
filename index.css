@@ -185,11 +185,9 @@ card p{
 }
 
 #cardContainer{
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fit, 296px);
-  justify-content: space-between;
-  gap: clamp(8px, 5vw, 70px);
+  display:flex;
+  flex-wrap:wrap;
+  gap:24px;
   max-width: 1028px;
   margin: auto;
 
